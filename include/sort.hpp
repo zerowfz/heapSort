@@ -32,3 +32,4 @@ class MergeSort:public sortbase
 	 void sort(float* A,int s,int f);
 	 void merge(float* A,int s,int m,int f);
 };
+//end
