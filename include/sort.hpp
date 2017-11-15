@@ -1,3 +1,5 @@
+#ifndef SORT_HPP
+#define SORT_HPP
 #include <iostream>
 
 using namespace std;
@@ -32,4 +34,6 @@ class MergeSort:public sortbase
 	 void sort(float* A,int s,int f);
 	 void merge(float* A,int s,int m,int f);
 };
-sdaflf
+
+#endif
+
